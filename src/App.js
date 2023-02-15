@@ -14,10 +14,10 @@ const App = () => {
   };
 
   return (
-    <Wrapper>
+    <>
       <AddUser onAddUser={addUserHandler}/>
       <UsersList users={usersList}/>
-    </Wrapper>
+    </>
   );
 }
 
